@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Repair Street System</string>
+    <string name="my_string_value">Don\'t have an Account? Create new one</string>
+
+    <string-array name="spinner_items">
+        <item>Cracks in the road surface</item>
+        <item>Cracks in the pavement</item>
+        <item>The road littered with waste</item>
+        <item>Malfunctioning traffic lights</item>
+        <item>Blocked drains</item>
+        <item>Needing Outdoor trash can</item>
+    </string-array>
+</resources>
