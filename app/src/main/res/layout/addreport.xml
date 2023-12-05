@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.addReportFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/green">
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ProblemType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Problem Description"
+        android:padding="10dp"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/des"
+
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TextInputDateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Date"
+        android:padding="10dp"
+        app:startIconDrawable="@drawable/calender"
+
+        app:endIconMode="clear_text"
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/upload"
+        ></ImageView>
+
+
+    <Button
+        android:id="@+id/buttonCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to upload"
+        android:layout_margin="20dp"></Button>
+
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_margin="20dp"></Button>
+
+
+
+</LinearLayout>
